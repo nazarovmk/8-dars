@@ -1,0 +1,20 @@
+.btn {
+  transition: 0.3s;
+  text-align: center;
+  width: 217px;
+  background-color: $dark-cyan;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.38;
+  font-family: $headers-fonts;
+  color: $Light-Cream-BG;
+  padding: {
+    bottom: 1.6rem;
+    top: 1.5rem;
+  }
+}
+
+.btn:hover {
+  background-color: $aqua;
+}

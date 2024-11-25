@@ -1,0 +1,295 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+// HEADER
+
+.df {
+  padding-top: 5rem;
+  align-items: center;
+  display: flex;
+  gap: 70rem;
+}
+
+.links {
+  display: flex;
+  gap: 33px;
+
+  a {
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: $Grey;
+  }
+}
+
+// MAIN
+
+.main-top {
+  margin-top: 4.3rem;
+  background-image: url(/images/home/desktop/image-hero-coffeepress.jpg);
+  border-radius: 12px;
+  padding-left: 8.5rem;
+  padding-bottom: 11.6rem;
+
+  p {
+    padding-top: 11.7rem;
+    font-family: "Fraunces";
+    font-size: $h1-fs;
+    font-weight: $h1-lh;
+    line-height: 72px;
+    color: $Light-Cream-BG;
+  }
+
+  .text {
+    padding-top: 3.2rem;
+    width: 400px;
+    font-family: Barlow;
+    font-size: $body-fs;
+    font-weight: 400;
+    line-height: $body-lh;
+  }
+
+  .btn {
+    margin-top: 5.6rem;
+  }
+}
+
+.wrapper {
+  margin-top: 26.2rem;
+}
+
+.dispay {
+  display: flex;
+  gap: 30px;
+
+  div {
+    width: 25.5rem;
+    margin-top: 7.1rem;
+  }
+
+  h4 {
+    font-family: "Fraunces";
+    font-size: $h4-fs;
+    font-weight: 900;
+    line-height: $h4-lh;
+    color: $Dark-Grey-Blue;
+    text-align: center;
+  }
+
+  p {
+    padding-top: 2.4rem;
+    font-family: "Barlow";
+    font-size: $body-fs;
+    font-weight: 400;
+    line-height: $body-lh;
+    color: $Dark-Grey-Blue;
+    text-align: center;
+  }
+}
+
+.color {
+  background-color: $black;
+  padding: 10rem 37rem 31.7rem 37rem;
+  margin-top: 20rem;
+
+  .gran-bold {
+    font-family: "Fraunces";
+    font-size: $h2-fs;
+    font-weight: 900;
+    line-height: $h2-lh;
+    text-align: center;
+    color: $Light-Cream-BG;
+  }
+
+  p {
+    padding-top: 2.4rem;
+    font-family: "Barlow";
+    font-size: $body-fs;
+    font-weight: 400;
+    line-height: $body-lh;
+    color: $Light-Cream-BG;
+    text-align: center;
+  }
+}
+
+.main-nav-df {
+  display: flex;
+  gap: 3rem;
+
+  div {
+    margin-top: -(200px +30px);
+    border-radius: 0.8rem;
+    background-color: $dark-cyan;
+    width: 35rem;
+    text-align: center;
+    padding: 7.2rem 4.8rem 4.8rem 4.7rem;
+  }
+
+  h4 {
+    padding-top: 5.6rem;
+    font-family: "Fraunces";
+    font-size: $h4-fs;
+    font-weight: 900;
+    line-height: $h4-lh;
+    color: $Light-Cream-BG;
+  }
+
+  p {
+    padding-top: 2.4rem;
+    width: 25.5rem;
+    font-family: "Barlow";
+    font-size: $body-fs;
+    font-weight: 400;
+    line-height: $body-lh;
+    color: $Light-Cream-BG;
+  }
+}
+
+.section-wrapper {
+  margin-top: 20rem;
+
+  .btn {
+    margin-top: 6.4rem;
+  }
+
+  h4 {
+    font-family: "Fraunces";
+    font-size: $h4-fs;
+    font-weight: 900;
+    line-height: $h4-lh;
+    color: $Grey;
+  }
+
+  img {
+    padding-top: 9.5rem;
+  }
+}
+
+.ones-df {
+  display: flex;
+  gap: 9.5rem;
+
+  div {
+    margin-top: 8.2rem;
+
+    h1 {
+      font-family: "Fraunces";
+      font-size: 72px;
+      font-weight: 900;
+      line-height: 72px;
+      color: $pink;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: $h3-fs;
+      font-weight: 900;
+      line-height: $h3-lh;
+      color: $Dark-Grey-Blue;
+    }
+
+    p {
+      padding-top: 4.2rem;
+      width: 285px;
+      font-family: "Barlow";
+      font-size: $body-fs;
+      font-weight: 400;
+      line-height: $body-lh;
+      color: $Dark-Grey-Blue;
+    }
+  }
+}
+
+// FOOTER
+
+.footer-bottom {
+  margin-top: 20rem;
+  margin-bottom: 8.8rem;
+  background-color: $black;
+  padding: 4.7rem 8.5rem 4.7rem 8.5rem;
+
+  .footer-bottom-df {
+    align-items: center;
+    gap: 102px;
+    display: flex;
+
+    ul {
+      padding-left: 30rem;
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: $h4-fs;
+  cursor: pointer;
+  color: $Light-Cream-BG;
+}
+
+.item::before {
+  font-family: "Font Awesome 5 Brands";
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.item:hover::before {
+  color: orange;
+  transition: 0.3s;
+}
+
+.instagram::before {
+  content: "\f16d";
+}
+.twitter::before {
+  content: "\f099";
+}
+.facebook::before {
+  content: "\f09a";
+}
