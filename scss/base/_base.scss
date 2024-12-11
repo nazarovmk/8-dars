@@ -47,7 +47,7 @@ main {
   padding-top: 5rem;
   align-items: center;
   display: flex;
-  gap: 70rem;
+  justify-content: space-between;
 }
 
 .links {
@@ -67,7 +67,7 @@ main {
 
 .main-top {
   margin-top: 4.3rem;
-  background-image: url(/images/home/desktop/image-hero-coffeepress.jpg);
+  background-image: url(../images/home/desktop/image-hero-coffeepress.jpg);
   border-radius: 12px;
   padding-left: 8.5rem;
   padding-bottom: 11.6rem;
@@ -97,6 +97,10 @@ main {
 
 .wrapper {
   margin-top: 26.2rem;
+}
+
+.img {
+  position: relative;
 }
 
 .dispay {
@@ -201,6 +205,25 @@ main {
     color: $Grey;
   }
 
+  .spans-wrapper {
+    margin-top: 8rem;
+    width: 760px;
+    background-color: #fdd6ba;
+    height: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .spans {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0e8784;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+
   img {
     padding-top: 9.5rem;
   }
@@ -292,4 +315,442 @@ main {
 }
 .facebook::before {
   content: "\f09a";
+}
+
+// MEDIA
+@media screen and (max-width: 993px) {
+  .df {
+    padding-top: 4rem;
+    align-items: center;
+    display: flex;
+  }
+
+  .main-top {
+    p {
+      padding-top: 10.4rem;
+      font-family: "Fraunces";
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 48px;
+      color: $Light-Cream-BG;
+    }
+
+    .text {
+      padding-top: 2.4rem;
+      width: 400px;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.5em;
+    }
+
+    .btn {
+      margin-top: 4rem;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+
+    .img {
+      display: none;
+    }
+  }
+
+  .dispay {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    div {
+      width: 28.2rem;
+    }
+
+    h4 {
+      font-family: "Fraunces";
+      font-size: $h4-fs;
+      font-weight: 900;
+      line-height: $h4-lh;
+      color: $Dark-Grey-Blue;
+      text-align: center;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: $body-fs;
+      font-weight: 400;
+      line-height: $body-lh;
+      color: $Dark-Grey-Blue;
+      text-align: center;
+    }
+  }
+
+  .color {
+    background-color: $black;
+    padding: 5.6rem 7.4rem 36.8rem 7.4rem;
+    margin-top: 20rem;
+
+    .gran-bold {
+      font-family: "Fraunces";
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.5em;
+      color: $Light-Cream-BG;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: $Light-Cream-BG;
+      text-align: center;
+    }
+  }
+
+  .main-nav-df {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: -300px;
+
+    div {
+      margin-top: 2.4px;
+      width: 57.3rem;
+      border-radius: 0.8rem;
+      background-color: $dark-cyan;
+      text-align: center;
+      padding: 2rem 4.8rem 4.1rem 7rem;
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 56px;
+      height: 56px;
+    }
+
+    h4 {
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.3em;
+      color: $Light-Cream-BG;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.5em;
+      color: $Light-Cream-BG;
+    }
+  }
+
+  .spans-wrapper {
+    margin-top: 4rem;
+    width: 46.7rem;
+    background-color: #fdd6ba;
+    height: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ones-df {
+    display: flex;
+    gap: 1rem;
+
+    div {
+      margin-top: 4.8rem;
+
+      h1 {
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        color: $pink;
+      }
+
+      h3 {
+        font-family: "Fraunces";
+        font-size: 2.8rem;
+        font-weight: 900;
+        line-height: 1.1em;
+        color: $Dark-Grey-Blue;
+      }
+
+      p {
+        padding-top: 4.2rem;
+        width: 230px;
+        font-family: "Barlow";
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.6em;
+        color: $Dark-Grey-Blue;
+      }
+    }
+  }
+
+  .footer-bottom {
+    align-items: center;
+    margin-top: 14.4rem;
+    margin-bottom: 7.2rem;
+    background-color: $black;
+
+    .footer-bottom-df {
+      gap: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+
+      ul {
+        align-items: center;
+        display: flex;
+        gap: 24px;
+        margin-left: -250px;
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: $h4-fs;
+    cursor: pointer;
+    color: $Light-Cream-BG;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .df {
+    padding-top: 3.2rem;
+    align-items: center;
+    display: flex;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .main-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 2.4rem 9.9rem 2.4rem;
+    p {
+      width: 279px;
+      padding-top: 10rem;
+      font-family: "Fraunces";
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1em;
+      color: $Light-Cream-BG;
+    }
+
+    .text {
+      padding-top: 2.4rem;
+      width: 279px;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.5em;
+    }
+
+    .btn {
+      margin-top: 3.9rem;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+
+    .img {
+      display: none;
+    }
+  }
+
+  .dispay {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    div {
+      width: 28.2rem;
+    }
+
+    h4 {
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 3.2rem;
+      color: $Dark-Grey-Blue;
+      text-align: center;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: $body-fs;
+      font-weight: 400;
+      line-height: $body-lh;
+      color: $Dark-Grey-Blue;
+      text-align: center;
+    }
+  }
+
+  .color {
+    background-color: $black;
+    padding: 6.4rem 2.4rem 66.1rem 2.4rem;
+    margin-top: 20rem;
+
+    .gran-bold {
+      font-family: "Fraunces";
+      font-size: 2.8rem;
+      font-weight: 900;
+      line-height: 1em;
+      color: $Light-Cream-BG;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: $Light-Cream-BG;
+      text-align: center;
+      width: 279px;
+    }
+  }
+
+  .main-nav-df {
+    margin-top: -600px;
+    display: flex;
+    gap: 3rem;
+
+    div {
+      border-radius: 0.8rem;
+      background-color: $dark-cyan;
+      width: 35rem;
+      text-align: center;
+      padding: 7.2rem 4.8rem 4.8rem 4.7rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h4 {
+      padding-top: 5.6rem;
+      font-family: "Fraunces";
+      font-size: $h4-fs;
+      font-weight: 900;
+      line-height: $h4-lh;
+      color: $Light-Cream-BG;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      width: 21.2rem;
+      font-family: "Barlow";
+      font-size: $body-fs;
+      font-weight: 400;
+      line-height: $body-lh;
+      color: $Light-Cream-BG;
+    }
+  }
+
+  .section-wrapper {
+    .spans-wrapper {
+      display: none;
+
+      .spans {
+        display: none;
+      }
+    }
+  }
+  .ones-df {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    div {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 4.8rem;
+
+      h1 {
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        color: $pink;
+      }
+
+      h3 {
+        font-family: "Fraunces";
+        font-size: 2.8rem;
+        font-weight: 900;
+        line-height: 1.1em;
+        color: $Dark-Grey-Blue;
+      }
+
+      p {
+        padding-top: 4.2rem;
+        width: 327px;
+        font-family: "Barlow";
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.6em;
+        color: $Dark-Grey-Blue;
+        text-align: center;
+      }
+    }
+  }
+
+  .footer-bottom {
+    align-items: center;
+    margin-top: 14.4rem;
+    margin-bottom: 7.2rem;
+    background-color: $black;
+
+    .footer-bottom-df {
+      gap: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+
+      ul {
+        align-items: center;
+        display: flex;
+        gap: 24px;
+        margin-left: -250px;
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: $h4-fs;
+    cursor: pointer;
+    color: $Light-Cream-BG;
+  }
 }

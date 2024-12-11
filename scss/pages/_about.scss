@@ -1,0 +1,481 @@
+.main__top-wrapper {
+  background-image: url(../images/about/desktop/image-hero-whitecup.jpg);
+  padding-top: 13.7rem;
+  padding-bottom: 13.7rem;
+  padding-left: 8.5rem;
+  margin-top: 4.4rem;
+  border-radius: 12px;
+
+  h2 {
+    font-family: "Fraunces";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    color: #fefcf7;
+  }
+
+  p {
+    padding-top: 2.4rem;
+    font-family: "Barlow";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    width: 445px;
+    color: #fefcf7;
+  }
+}
+
+.main__main {
+  display: flex;
+
+  img {
+    width: 44.5rem;
+    height: 52.2rem;
+    border-radius: 8px;
+    margin-top: 16.8rem;
+    margin-left: 4.5rem;
+  }
+
+  .main__wrapper {
+    margin-top: 25.8rem;
+    margin-left: 12.5rem;
+  }
+
+  h3 {
+    font-family: "Fraunces";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    color: #333d4b;
+  }
+
+  p {
+    padding-top: 3.2rem;
+    font-family: "Barlow";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #333d4b;
+    width: 540px;
+  }
+}
+
+.main__madium {
+  display: flex;
+  background-image: url(../images/about/desktop/bg-quality.png);
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-top: 25.6rem;
+
+  div {
+    padding-top: 8.8rem;
+    padding-left: 8.5rem;
+  }
+
+  h3 {
+    font-family: "Fraunces";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    color: #fefcf7;
+  }
+
+  p {
+    padding-top: 3.2rem;
+    font-family: "Barlow";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fefcf7;
+    width: 540px;
+  }
+
+  img {
+    margin-top: -150px;
+    width: 445px;
+    height: 474px;
+    border-radius: 8px;
+    margin-right: 8.5rem;
+  }
+}
+
+.main__bottom {
+  padding-left: 8.5rem;
+  display: flex;
+  align-items: center;
+  gap: 9.5rem;
+  margin-top: 16.8rem;
+}
+
+.main__bottom-map {
+  width: 28.5rem;
+
+  .main__bottom-text {
+    font-family: "Fraunces";
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #83888f;
+  }
+
+  img {
+    margin-top: 7.2rem;
+    width: 3.5rem;
+    height: 5rem;
+  }
+
+  h4 {
+    padding-top: 4.6rem;
+    font-family: "Fraunces";
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: #333d4b;
+  }
+
+  p {
+    padding-top: 2.4rem;
+    font-family: "Barlow";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #333d4b;
+  }
+}
+
+.two {
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 993px) {
+  .main__top-wrapper {
+    background-image: url(../images/about/desktop/image-hero-whitecup.jpg);
+    padding-top: 11.8rem;
+    padding-bottom: 11.8rem;
+    padding-left: 5.8rem;
+    margin-top: 4.4rem;
+    border-radius: 12px;
+
+    h2 {
+      font-family: "Fraunces";
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.2em;
+      color: #fefcf7;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      width: 398px;
+      color: #fefcf7;
+    }
+  }
+
+  .main__main {
+    display: flex;
+
+    img {
+      width: 28.1rem;
+      height: 47rem;
+      border-radius: 8px;
+      margin-top: 14.4rem;
+      margin-left: 3.9rem;
+    }
+
+    .main__wrapper {
+      margin-top: 15.2rem;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.5em;
+      color: #333d4b;
+    }
+
+    p {
+      padding-top: 3rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #333d4b;
+      width: 339px;
+    }
+  }
+
+  .main__madium {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/about/desktop/bg-quality.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-top: 30.4rem;
+
+    div {
+      padding-top: 22.4rem;
+      padding-left: 8.5rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1.2em;
+      color: #fefcf7;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #fefcf7;
+      width: 540px;
+      text-align: center;
+    }
+
+    img {
+      margin-top: -800px;
+      width: 600px;
+      height: 320px;
+      border-radius: 8px;
+      margin-right: 8.5rem;
+    }
+  }
+
+  .main__bottom {
+    padding-left: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 14.4rem;
+  }
+
+  .main__bottom-map {
+    width: 22.3rem;
+
+    .main__bottom-text {
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.3em;
+      color: #83888f;
+    }
+
+    img {
+      margin-top: 7.2rem;
+      width: 4rem;
+      height: 5rem;
+    }
+
+    h4 {
+      padding-top: 4.8rem;
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.5em;
+      color: #333d4b;
+    }
+
+    p {
+      padding-top: 2.1rem;
+      font-family: "Barlow";
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #333d4b;
+    }
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .main__madium {
+    img {
+      width: 400px;
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .main__top-wrapper {
+    background-image: url(../images/about/desktop/image-hero-whitecup.jpg);
+    padding-top: 11rem;
+    padding-bottom: 8.7rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-top: 4rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      align-items: center;
+      font-family: "Fraunces";
+      font-size: 2.8rem;
+      font-weight: 900;
+      line-height: 1em;
+      color: #fefcf7;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      width: 279px;
+      color: #fefcf7;
+      text-align: center;
+    }
+  }
+
+  .main__main {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 32.7rem;
+      height: 40rem;
+      border-radius: 8px;
+      margin-top: 12rem;
+    }
+
+    .main__wrapper {
+      margin-top: 4.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.5em;
+      color: #333d4b;
+      width: 327px;
+    }
+
+    p {
+      text-align: center;
+      padding-top: 3rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #333d4b;
+      width: 327;
+    }
+  }
+
+  .main__madium {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/about/desktop/bg-quality.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-top: 15rem;
+    align-items: center;
+
+    div {
+      align-items: center;
+      padding-top: 14.2rem;
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: 2.8rem;
+      font-weight: 900;
+      line-height: 1em;
+      color: #fefcf7;
+      text-align: center;
+    }
+
+    p {
+      padding-top: 2.4rem;
+      font-family: "Barlow";
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #fefcf7;
+      width: 279px;
+      text-align: center;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .main__bottom {
+    padding-left: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 12rem;
+  }
+
+  .main__bottom-map {
+    width: 22.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main__bottom-text {
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.3em;
+      color: #83888f;
+    }
+
+    img {
+      margin-top: 7.2rem;
+      width: 4rem;
+      height: 5rem;
+    }
+
+    h4 {
+      padding-top: 4.8rem;
+      font-family: "Fraunces";
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1.5em;
+      color: #333d4b;
+    }
+
+    p {
+      padding-top: 2.1rem;
+      font-family: "Barlow";
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.6em;
+      color: #333d4b;
+      text-align: center;
+    }
+  }
+}
